@@ -1,0 +1,103 @@
+
+Question 1:
+Method Overloading:
+Method overloading is a part of polymorphism in which has methods have same name but having in diffrent argument;
+it can be achieved by 
+1>change  the argument
+2> if argument are same then change their datatype or order.
+
+
+
+
+Question 2:
+
+ we can handle divide by zero exception with the help of  using try-catch block
+
+class A
+{
+int x=10;
+int y=0;
+
+try
+{
+int z=x/y;
+System.out.println(z);
+}
+catch(AirthmeticException e){
+System.out.println(e);
+}
+}
+}
+
+
+Question 3:
+
+== and .equals()
+== operator is always cheks the refrence  memory if they are same same then it returns true otherwise false.
+.equals() is a method of object class it always cheeck the content of object if they are same it returns true otherwise false.
+
+
+Question  4:
+there are 8 data types in java
+int 
+float
+short
+byte
+long
+double '
+char 
+boolean
+
+
+Question 4:
+Sacanner is used to take input from user on console:
+
+
+
+class InputExample {
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+
+        // Integer input
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();
+
+        // Double input
+        System.out.print("Enter your height: ");
+        double height = sc.nextDouble();
+
+        // String input (single word)
+        System.out.print("Enter your name: ");
+        String name = sc.next();
+
+        // String input (whole line)
+        sc.nextLine();  // consume leftover newline
+        System.out.print("Enter your address: ");
+        String address = sc.nextLine();
+
+        // Output
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Height: " + height);
+        System.out.println("Address: " + address);
+
+       
+    }
+}
+Question 6:
+loop is a programming construct that repeats a block of code multiple times until a certain condition is met.
+
+Question 7:
+JVM =java virtual machine it is used to execute the byetcode into native machie code  also verifies the code,execute.
+
+Question 8:
+when source code is compiled by jdk into .class file or byte code then by jvm so this byecode is platform independent it can run any os so we can say that java is platform independent.
+
+Question 9:
+Debugging is the process of finding and fixing errors (bugs) in a Java program.
+
+
+
+
+
